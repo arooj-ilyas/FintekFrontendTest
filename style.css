@@ -1,0 +1,71 @@
+/*
+	Please add your custom CSS in this file. The hex codes for the colours are below.
+
+	Main text color (grey): #838383
+	Dark grey for the speech bubble at the top: #424242
+	Grey border colour for the main content area, and the buttons at the bottom: #DCDCDC
+	Orange colour for the highlighted "only 3 days left" text and the progress bar: #F15E33
+	The background for the part of the progress bar that isn't filled in: #FAFAFA
+	Buttons at the bottom: #838383
+	Green button: #00BE1C
+	Green button border: #01B21A
+	"Why give 50" link: #25A5D8
+*/
+
+p, span {
+	color: #838383;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+div {
+	display: flex;
+}
+
+i {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	color: #25A5D8;
+	font-size: 12px
+}
+
+.center-console {
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+  width: 300px;
+  border: 1px solid #DCDCDC;
+  text-align: left;
+  padding-left: 2%;
+
+}
+
+.page-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.green-button {
+	background-color: #00BE1C;
+	color: white;
+	border: #01B21A;
+	height: 40px;
+	width: 130px;
+	border-radius: 2px;
+}
+
+.money-input {
+	padding-left: 5px; 
+	margin-right: 10px;
+	font-weight: bold;
+	height: 40px;
+	width: 130px;
+}
+
+.grey-button {
+	margin-top: 15px;
+	width: 130px;
+	height: 30px;
+	color: #838383;
+	font-weight: bold;
+}
